@@ -2,7 +2,7 @@ name := "capsule-corp-project"
 
 organization in ThisBuild := "com.kreactive"
 
-version in ThisBuild := "1.0.6"
+version in ThisBuild := "1.0.7"
 
 scalaVersion in ThisBuild := "2.11.11"
 
@@ -28,7 +28,7 @@ licenses in ThisBuild := List(
 
 homepage in ThisBuild := Some(url("https://github.com/kreactive"))
 
-publishTo := Some("kreactive bintray" at "https://api.bintray.com/maven/kreactive/maven/pactole")
+publishTo := Some("kreactive bintray" at "https://api.bintray.com/maven/kreactive/maven/capsulecorp")
 
 credentials += Credentials(Path.userHome / ".sbt" / ".credentials")
 
